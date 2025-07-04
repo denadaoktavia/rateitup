@@ -7,7 +7,6 @@ import { useAxios } from "@/hooks/useAxios";
 import { Button } from "@/components/ui/button";
 import { Link, useNavigate } from "react-router-dom";
 import { getUser } from "@/service/userApi";
-import { MoveLeft } from "lucide-react";
 
 const ProfileDetail = () => {
   const navigate = useNavigate();
